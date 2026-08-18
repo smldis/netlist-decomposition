@@ -6,10 +6,11 @@ Design*. Only the parts listed below are implemented; this is not the full
 paper decomposition.
 
 The current rule dependencies are structured metadata rendered in
-[functional-decomposition-dependencies.md](functional-decomposition-dependencies.md),
-the Markdown-table counterpart of Figure 15. The generated table deliberately
-separates hierarchy levels (tag taxonomy) from composition passes (recognition
-order). Regenerate or verify it with:
+[Functional Decomposition Rule Dependencies](rule-dependencies.md), the
+Markdown-table counterpart of Figure 15. That page is generated from
+`netlist_decomposition.dependencies` and is never edited by hand; the generated
+table deliberately separates hierarchy levels (tag taxonomy) from composition
+passes (recognition order). Regenerate or verify it with:
 
 ```bash
 python scripts/generate_decomposition_dependencies.py

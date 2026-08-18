@@ -2,7 +2,7 @@
 
 Runs the real extraction pipeline from the sibling sky130-analog-workspace
 (no rendered-text parsing) and verifies the expectations recorded in
-docs/design/functional-decomposition-abel2021.md:
+docs/paper-alignment.md:
 
     python scripts/verify_ota_decomposition.py [workspace-dir]
 

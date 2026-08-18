@@ -18,6 +18,18 @@ The optional OTA verifier consumes a sibling SKY130 workspace:
 python scripts/verify_ota_decomposition.py [workspace-dir]
 ```
 
-See
-[`docs/design/functional-decomposition-abel2021.md`](docs/design/functional-decomposition-abel2021.md)
-for implemented paper alignment and [ONTOLOGY.md](ONTOLOGY.md) for exclusions.
+## Documentation
+
+[`docs/`](docs/index.md) is the guide, built into the project's Sphinx site by
+`python composition.py docs` from the repository root. Start at
+[Abel et al. (2021) alignment](docs/paper-alignment.md) for exactly which paper
+rules are implemented and which are not; the
+[rule dependency table](docs/rule-dependencies.md) is generated from
+`netlist_decomposition.dependencies` and must never be edited by hand.
+
+Two neighbouring surfaces are deliberately not part of that site.
+[`ONTOLOME.md`](ONTOLOME.md) states the contracts this unit currently guarantees
+and its exclusions, and is where a change to a contract must be recorded.
+[`design/`](design/README.md) holds the handoff and the plan that produced the
+current pipeline — written on a date, not maintained against the code, and never
+to be cited as evidence of how it now behaves.

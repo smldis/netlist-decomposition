@@ -1,7 +1,9 @@
 # Plan: Tagging Sets + Composition Passes Refactor
 
 Status: executed (2026-07-13).  Kept for the record; the current state is
-described in design/functional-decomposition-abel2021.md.
+described in `docs/paper-alignment.md`, the maintained page this plan then
+called `design/functional-decomposition-abel2021.md`.  Every other path below
+names the tree as it stood on that date and is not updated.
 
 ## Constraints (standing, do not violate)
 
